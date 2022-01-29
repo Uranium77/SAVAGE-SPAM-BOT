@@ -836,7 +836,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio By MULTI SPAMBOT")
+                await event.edit.(Sᴜᴄᴄᴇsғᴜʟʟʏ Cʜᴀɴɢᴇᴅ Bɪᴏ Bʏ URANIUM MASTER)
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -878,7 +878,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.channels.JoinChannelRequest(channel=bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("𝕊𝕌ℂℂ𝔼𝕊𝕊𝔽𝕌𝕃𝕃𝕐 𝕁𝕆𝕀ℕ𝔼𝔻")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -922,7 +922,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Succesfully Joined")
+                await event.edit(")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -966,7 +966,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
-                await event.edit("Succesfully Left")
+                await event.edit("𝕊𝕦𝕔𝕔𝕖𝕤𝕗𝕦𝕝𝕝𝕪 𝕃𝕖𝕗𝕥 ")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1440,7 +1440,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "Activated Reply Raid"
+            text = "𝘈𝘊𝘛𝘐𝘝𝘈𝘛𝘌𝘋💀𝘙𝘌𝘗𝘓𝘠𝘙𝘈𝘐𝘋 "
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1450,7 +1450,7 @@ async def _(e):
             qeue = que.get(g)
             appendable = [g]
             qeue.append(appendable)
-            text = "Activated Reply Raid"
+            text = " 𝘈𝘊𝘛𝘐𝘝𝘈𝘛𝘌𝘋💀𝘙𝘌𝘗𝘓𝘠𝘙𝘈𝘐𝘋 "
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1499,7 +1499,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "ᴅᴇ - ᴀᴄᴛɪᴠᴀᴛᴇ ʀᴇᴘʟʏʀᴀɪᴅ"
             await e.reply(text, parse_mode=None, link_preview=None )
         elif e.reply_to_msg_id:             
             a = await e.get_reply_message()
@@ -1510,7 +1510,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "ᴅᴇ - ᴀᴄᴛɪᴠᴀᴛᴇ ʀᴇᴘʟʏʀᴀɪᴅ"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1550,7 +1550,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"😁 🇵 🇴 🇳 🇬 !\n`{ms}` 𝗺𝘀")
+        await event.edit(f"🇮🇳༒☬𝙐𝙍𝘼𝙉𝙄𝙐𝙈☠️𝙎𝙋𝘼𝙈☬༒🇮🇳!\n`{ms}` 𝗺𝘀")
 
 
     
