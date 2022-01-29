@@ -922,7 +922,7 @@ async def _(e):
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(ImportChatInviteRequest(bc))
-                await event.edit("Succesfully Joined")
+                await event.edit("𝙎𝙐𝘾𝘾𝙀𝙎𝙎𝙛𝙐𝙇𝙇𝙔 𝙅𝙊𝙄𝙉𝙀𝘿 𝙈𝙔 𝙎𝙄𝙍")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1510,7 +1510,7 @@ async def _(e):
                 queue.pop(0)
             except Exception as f:
                 pass
-            text = "De-Activated Reply Raid"
+            text = "ᴅᴇ - ᴀᴄᴛɪᴠᴀᴛᴇ ʀᴇᴘʟʏʀᴀɪᴅ"
             await e.reply(text, parse_mode=None, link_preview=None )
         else:
             await e.reply(usage, parse_mode=None, link_preview=None )
@@ -1550,7 +1550,7 @@ async def ping(e):
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"😁 🇵 🇴 🇳 🇬 !\n`{ms}` 𝗺𝘀")
+        await event.edit(f"🇮🇳༒☬𝙐𝙍𝘼𝙉𝙄𝙐𝙈☠️𝙎𝙋𝘼𝙈☬༒🇮🇳 !\n`{ms}` 𝗺𝘀")
 
 
     
